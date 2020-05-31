@@ -35,19 +35,10 @@ end
 
 
 def apply_clearance(cart)
-  cart.each do |item_hash|
-    if item_hash[:clearance] == true
-      new_price = {
-        :item => item_hash[:item],
-        :price => item_hash[:price] - (item_hash[:price] * 0.20),
-        :clearance => item_hash[:clearance],
-        :count => item_hash[:count]
-      }
-      cart << new_price
-      #binding.pry
-    end
+  i = 0
+  while i < cart.length
+    
   end
-  cart
 end
 
 
