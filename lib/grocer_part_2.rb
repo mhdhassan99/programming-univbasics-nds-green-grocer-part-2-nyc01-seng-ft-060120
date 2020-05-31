@@ -22,8 +22,6 @@ def apply_coupons(cart, coupons)
         cart << cart_item_with_coupon
       end
     end
-    
-    binding.pry
     i += 1
   end  
 end
