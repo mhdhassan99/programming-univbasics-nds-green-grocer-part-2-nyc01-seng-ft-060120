@@ -39,7 +39,7 @@ def apply_clearance(cart)
     if item_hash[:clearance] == true
       new_price = {
         :item => item_hash[:item],
-        :price => item_hash[:price] * .20
+        :price => item_hash[:price] 
       }
       
       binding.pry
