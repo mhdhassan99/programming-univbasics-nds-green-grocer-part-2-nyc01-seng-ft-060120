@@ -43,10 +43,11 @@ def apply_clearance(cart)
         :clearance => item_hash[:clearance],
         :count => item_hash[:count]
       }
-      
+      cart << new_price
       binding.pry
     end
   end
+  cart
 end
 
 
