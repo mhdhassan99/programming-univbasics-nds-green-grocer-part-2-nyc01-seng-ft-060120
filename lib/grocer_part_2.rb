@@ -51,5 +51,5 @@ end
 
 
 def checkout(cart, coupons)
- 
+ cons
 end
